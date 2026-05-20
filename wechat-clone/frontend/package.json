@@ -2,12 +2,10 @@
   "name": "wechat-clone",
   "version": "1.0.0",
   "description": "WeChat PC Clone",
-  "main": "main.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "electron:dev": "electron .",
-    "electron:build": "vite build && electron-builder"
+    "preview": "vite preview"
   },
   "dependencies": {
     "vue": "^3.4.21",
@@ -21,8 +19,6 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
     "vite": "^5.1.0",
-    "electron": "^28.2.0",
-    "electron-builder": "^24.13.3",
     "sass": "^1.70.0"
   }
 }
